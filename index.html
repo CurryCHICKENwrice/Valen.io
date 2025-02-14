@@ -16,12 +16,16 @@
 
     <div class="surprise" id="surprise">
         <div class="flower-bouquet">
-            <img src="https://www.example.com/flower-bouquet.png" alt="Flower Bouquet">
+            <img src="https://example.com/flower-bouquet.png" alt="Flower Bouquet">
         </div>
-        <div class="letter">
-            <p>Dear You,</p>
-            <p>I hope you enjoy this surprise! 💌</p>
+        <div class="letter" onclick="revealLetter()">
+            <p>Click to read the letter!</p>
         </div>
+    </div>
+
+    <div class="letter-content" id="letter-content">
+        <p>Dear You,</p>
+        <p>I hope you enjoy this surprise! 💌 Wishing you a wonderful day ahead!</p>
     </div>
 
     <script src="script.js"></script>
